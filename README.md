@@ -5,19 +5,18 @@ Please follow the instructions carefully based on your situation.
 
 ---------------
 # 🧑‍🎓 FOR STUDENTS WITHOUT GITHUB ACCOUNT
-## Step 1: Create GitHub Account
+## Step 1: Create GitHub Account ( If already cretaed ignore)
 
-1. Go to https://github.com  
-2. Click **Sign Up**  
-3. Enter your details  
-4. Verify your email  
+a. Go to https://github.com  
+b. Click **Sign Up**  
+c. Enter your details  
+d. Verify your email  
 
 ---------------
 
 ## Step 2: Install Git
 
 Download from: https://git-scm.com/downloads  
-
 After installation, check:
 
 ```bash
@@ -27,25 +26,25 @@ git --version
 
 Follow the steps below carefully to submit your assignment to this repository.
 
-### 1. **Fork the Repository**
+### 3. **Fork the Repository**
 Click the **Fork** button on the top right of this repository page.
 
 ---------
 
-### 2. **Clone Your Forked Repository**
+### 4. **Clone Your Forked Repository**
 
 ```bash
 git clone https://github.com/<your-github-username>/CompilerDesignAssignemnt.git
 
 --------
 
-### 3. **Then go inside the folder**
+### 5. **Then go inside the folder**
 ```bash
 cd CompilerDesignAssignemnt
 
 --------
 
-### 4. **Create Your Assignment Folder**
+### 6. **Create Your Assignment Folder**
 Create a new folder inside the repo with this format:
 <RollNumber>_<Name>
 ```bash
@@ -78,6 +77,35 @@ Add a short description →
 Click Create Pull Request
 
 -----------------------
+
+**👨‍💻 FOR STUDENTS WITH GITHUB ACCOUNT**
+Step 1: Accept Repository Invitation
+
+Check your email and click Accept Invitation.
+
+**Step 2: Clone Repository**
+git clone https://github.com/username/repository-name.git
+cd repository-name
+
+**Step 3: Create Your Branch (Recommended)**
+git checkout -b yourname-assignment1
+
+**Step 4: Add Files**
+Copy your assignment files into the folder.
+
+**Step 5: Commit Changes**
+git add .
+git commit -m "Assignment 1 Submission - Your Name"
+
+**Step 6: Push Your Branch**
+git push origin yourname-assignment1
+
+**Step 7: Create Pull Request (If Required)**
+Go to GitHub repository
+Click Compare & Pull Request
+Click Create Pull Request
+
+
 
 📁 **Submission Guidelines**
 
