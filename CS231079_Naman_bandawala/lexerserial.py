@@ -19,3 +19,29 @@ while True:
 
 file.close()
 print("File reading complete!")
+'''#for code in C language 
+#include <stdio.h>
+#include <ctype.h>
+
+int main() {
+    FILE *fp = fopen("input.c", "r");
+    
+    if (fp == NULL) {
+        printf("File not found\n");
+        return 1;
+    }
+
+    int ch;
+
+    while ((ch = fgetc(fp)) != EOF) {
+        if (isalpha(ch))
+            printf("LETTER: %c\n", ch);
+        else if (isdigit(ch))
+            printf("NUMBER: %c\n", ch);
+        else
+            printf("SYMBOL: %c\n", ch);
+    }
+
+    fclose(fp);
+    return 0;
+}'''
